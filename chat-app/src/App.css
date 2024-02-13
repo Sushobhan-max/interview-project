@@ -1,0 +1,146 @@
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.fontrem {
+    font-size: 2rem;
+}
+
+.navdiv ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-size: 1.2rem;
+
+}
+
+.navdiv ul {
+    list-style: none;
+    display: flex;
+}
+
+.secparentdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.secimg {
+    height: 47vh;
+    border-radius: 45vh;
+    width: 47vh;
+}
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 30px;
+    border: none;
+    background: #e99700;
+    color: white;
+}
+
+#btn-span {
+    padding: 4px 7px;
+    border-radius: 30px;
+    border: none;
+    background: #000000;
+}
+
+.fontten {
+    font-size: 10px;
+}
+
+.divid {
+    padding: 70px 120px;
+}
+
+.seconddiv {
+    background: black;
+    border-bottom-left-radius: 80px 80px;
+}
+
+.d-flexnor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.ac {
+    border-radius: 120px;
+    background: linear-gradient(45deg, #ff6300, #d8d80c, transparent);
+    padding: 185px;
+    border-radius: 100%;
+    height: 26vh;
+    width: 26vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-white {
+    background-color: rgb(245 245 245);
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 1px 5px 10px #414141;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 73px;
+    left: -1px;
+}
+
+.gap {
+    gap: 12px;
+}
+.rem{
+    font-size: 1.2rem
+}
+.burger{
+    width: 12px;
+    height: 12px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+

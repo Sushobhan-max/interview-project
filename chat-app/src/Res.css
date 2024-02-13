@@ -1,0 +1,77 @@
+@media only screen and (max-width:1058px) {
+
+
+    .navdivres ul li a {
+        font-size: 10px;
+
+    }
+
+    .navdivres ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .fontres {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .secparentdiv {
+        flex-direction: column;
+    }
+
+    .btn-res {
+        padding: 9px 12px;
+        font-size: 10px;
+    }
+
+    .dividred {
+        padding: 50px;
+    }
+
+    .fonttfour {
+        font-size: 24px;
+    }
+    .acres {
+        background: linear-gradient(45deg, #ff6300, #d8d80c, transparent);
+        padding: 40px;
+        border-radius: 100%;
+        height: 26vh;
+        width: 26vh;
+        position: relative;
+        top: 44px;
+    }
+    .respx{
+        font-size: 11px;
+    }
+    .bg-white{
+        font-size: 8px;
+        margin: 0;
+        top: -43px;
+    }
+    .navdiv{
+        width: 100%;
+        position: relative;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        overflow: hidden;
+        height: 0;
+        transition: 0.5s;
+        background-color: #ff0000;
+    }
+    .menu.active{
+        height: 400px;
+    }
+    .menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
